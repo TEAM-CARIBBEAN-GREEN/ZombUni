@@ -12,6 +12,9 @@
     <audio src="sound/click.mp3" type="audio/ogg" id="clickSound"></audio>
     <embed name="myMusic" loop="true" hidden="true" src="sound/sound.mp3"></embed>
     <script src="JS/buttonClick.js"></script>
+    <link href="CSS/responsive-slider.css" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -20,40 +23,78 @@
 
     <ul id="mainMenu"></ul>
     <li><a class="buttonLink" onclick="clickSound()" href="index.html">News</a></li>
-    <li><a class="buttonLink" onclick="clickSound()"href="index.html">About</a></li>
-    <li><a class="buttonLink" onclick="clickSound()"href="index.html">Fast-Track</a></li>
-    <li><a class="buttonLink" onclick="clickSound()"href="index.html">Zombie-Teachers</a></li>
-    <li><a class="buttonLink" onclick="clickSound()"href="index.html">Yard</a></li>
-    <!--<button onclick="clickSound()">TESTSoundClick</button>-->
-    <!--the button is only for test for now-->
-    <!--links under construction-->
+    <li><a class="buttonLink" onclick="clickSound()" href="index.html">About</a></li>
+    <li><a class="buttonLink" onclick="clickSound()" href="index.html">Fast-Track</a></li>
+    <li><a class="buttonLink" onclick="clickSound()" href="index.html">Zombie-Teachers</a></li>
+    <li><a class="buttonLink" onclick="clickSound()" href="index.html">Yard</a></li>
+
 
 </nav>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p><p>aaaaa</p>
-<p>aaaaa</p><p>aaaaa</p>
-<p>aaaaa</p><p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
-<p>aaaaa</p>
+
+<div class="container">
+    <!-- Responsive slider - START -->
+    <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+        <div class="slides" data-group="slides">
+            <ul>
+                <li>
+                    <div class="slide-body" data-group="slide">
+                        <img src="slider/1.jpg">
+                        <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                            <h2>Responsive slider</h2>
+                            <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">With one to one swipe movement!</div>
+                        </div>
+                        <div class="caption img-html5" data-animate="slideAppearLeftToRight" data-delay="200">
+                            <img src="../img/html5.png">
+                        </div>
+                        <div class="caption img-css3" data-animate="slideAppearLeftToRight">
+                            <img src="../img/css3.png">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slide-body" data-group="slide">
+                        <img src="slider/2.jpg">
+                        <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                            <h2>Twitter Boostrap</h2>
+                            <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">Compatible!</div>
+                        </div>
+                        <div class="caption img-bootstrap" data-animate="slideAppearDownToUp" data-delay="200">
+                            <img src="../img/bootstrap.png">
+                        </div>
+                        <div class="caption img-twitter" data-animate="slideAppearUpToDown">
+                            <img src="../img/twitter.png">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="slide-body" data-group="slide">
+                        <img src="slider/3.jpg">
+                        <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500" data-length="300">
+                            <h2>Custom animations</h2>
+                            <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800" data-length="300">For any caption you use!</div>
+                        </div>
+                        <div class="caption img-jquery" data-animate="slideAppearDownToUp" data-delay="200">
+                            <img src="../img/jquery.png">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a class="slider-control left" href="#" data-jump="prev">Prev</a>
+        <a class="slider-control right" href="#" data-jump="next">Next</a>
+        <div class="pages">
+            <a class="page" href="#" data-jump-to="1">1</a>
+            <a class="page" href="#" data-jump-to="2">2</a>
+            <a class="page" href="#" data-jump-to="3">3</a>
+        </div>
+    </div>
+    <!-- Responsive slider - END -->
 
 
-
+</div>
+<script src="JS/jquery.js"></script>
+<script src="JS/jquery.event.move.js"></script>
+<script src="JS/responsive-slider.js"></script>
 
 </body>
 </html>

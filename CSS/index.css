@@ -3,6 +3,7 @@ body {
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
+
 }
 
 * {
@@ -34,11 +35,14 @@ li {
     font-family: 'Shadows Into Light';
     font-size: 180%;
     font-weight: bold;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+
+
 
 }
 
 nav {
-    z-index:99
+
     border: 2px solid gray;
     padding-bottom: 1%;
     border-radius: 5px;
@@ -46,11 +50,13 @@ nav {
     opacity: .7;
 
 
+
 }
 
 .buttonLink {
     text-decoration: none;
     color: #9d1b2b;
+
 
 }
 
@@ -61,14 +67,14 @@ nav {
 }
 
 li:hover {
-    background-color: black;
+
     border-radius: 16%;
+    opacity: 1 !important;
+
+
 }
 /*test*/
 p{
     font-size: 350%;
     color: wheat;
 }
-
-
-
