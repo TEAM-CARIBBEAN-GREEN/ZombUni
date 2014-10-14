@@ -124,6 +124,11 @@
     -webkit-border-radius: 6px 6px 6px 6px;
     border-radius: 6px 6px 6px 6px;
     text-decoration: none;
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+    color: #7b1b29;
+
 }
 
 .responsive-slider .slider-control.left:hover {
@@ -137,6 +142,10 @@
     -webkit-border-radius: 6px 6px 6px 6px;
     border-radius: 6px 6px 6px 6px;
     text-decoration: none;
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+    color: #7b1b29;
 }
 
 .responsive-slider .slider-control.right:hover {
@@ -164,9 +173,10 @@
     color: transparent;
     width: 5px;
     height: 5px;
-    border: 3px solid #fff;
+    border: 3px solid #7b1b29 ;
     border-radius: 50%;
     opacity: 0.5;
+
 }
 
 .responsive-slider .pages .page.active {

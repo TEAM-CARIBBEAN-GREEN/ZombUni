@@ -7,7 +7,7 @@ body {
 }
 
 * {
-    cursor: url("../Images/2.png"), auto;
+    cursor: url("../Images/cursor2.png"), auto;
     /*cursor: crosshair;*/
     /*cursor: url(images/cursor.png) ,pointer;*/
 }
@@ -60,12 +60,15 @@ nav {
 
 }
 .buttonLink:hover{
-    background-color: #9d4c08;
+  background-color: #9d1b2b;
     border-radius: 15%;
+  color: black;
+    border: 2px solid white;
+
 }
 
 * {
-    cursor: url("../Images/2.png"), auto;
+    cursor: url("../Images/cursor2.png"), auto;
     /*cursor: crosshair;*/
     /*cursor: url(images/cursor.png) ,pointer;*/
 }
