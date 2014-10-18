@@ -1,15 +1,14 @@
 body {
-    background: url("../Images/graveyard-hd-wallpaper-5.jpg") center fixed no-repeat;;
+    background: url("../Images/backgroundSite.jpg") center fixed no-repeat;;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
 
 }
 
-* {
+html {
     cursor: url("../Images/cursor2.png"), auto;
-    /*cursor: crosshair;*/
-    /*cursor: url(images/cursor.png) ,pointer;*/
+    
 }
 
 #header {
@@ -36,21 +35,19 @@ li {
     font-size: 180%;
     font-weight: bold;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+	
+}
 
-
-
+li:hover {
+	border-radius: 16%;
+    opacity: 1;
 }
 
 nav {
-
     border: 2px solid gray;
     padding-bottom: 1%;
     border-radius: 5px;
-    background-color: lightgray;
-    opacity: .7;
-
-
-
+    background-color: rgba(211,211,211, 0.7);
 }
 
 .buttonLink {
@@ -67,19 +64,7 @@ nav {
 
 }
 
-* {
-    cursor: url("../Images/cursor2.png"), auto;
-    /*cursor: crosshair;*/
-    /*cursor: url(images/cursor.png) ,pointer;*/
-}
 
-li:hover {
-
-    border-radius: 16%;
-    opacity: 1 !important;
-
-
-}
 /*test*/
 p{
     font-size: 350%;
@@ -87,4 +72,26 @@ p{
 }
 .container{
     opacity: 0.8;
+    max-width: 100%;
+}
+#info{
+    background-image: url("../Images/info.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Shadows Into Light';
+    font-size: 196%;
+    margin-top: -425px;
+    float: right;
+    color: #ffffff;
+    width: 38%;
+
+    padding-bottom: 18px;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+
+
+   border-radius: 3px;
+
+
 }
