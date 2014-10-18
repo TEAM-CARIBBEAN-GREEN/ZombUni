@@ -1,0 +1,100 @@
+body {
+    background: url("../Images/backgroundSite.jpg") center fixed no-repeat;;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    font-family: 'Shadows Into Light';
+    font-size: 62.50%;
+
+}
+
+html {
+    cursor: url("../Images/cursor2.png"), auto;
+
+}
+
+#header {
+    background: gray;
+
+    border: 2px solid black;
+    border-radius: .7em;
+    background-image: url("../Images/manos.png");
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding: 0 1rem;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    margin-left: 4%;
+    font-family: 'Shadows Into Light';
+    font-size: 180%;
+    font-weight: bold;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+
+}
+
+li:hover {
+    border-radius: 16%;
+    opacity: 1;
+}
+
+nav {
+    border: 2px solid gray;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.7);
+}
+
+.buttonLink {
+    text-decoration: none;
+    color: #9d1b2b;
+}
+
+.buttonLink:hover {
+    background-color: #9d1b2b;
+    border-radius: 15%;
+    color: black;
+    border: 2px solid white;
+
+}
+
+#yardHeader {
+    font-size: 2.5rem;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+    color: white;
+    text-align: center;
+}
+
+.info {
+    font-size: 1.9rem;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+    color: white;
+    text-align: center;
+}
+
+#rooms {
+    margin-left: 3%;
+}
+
+.info_container{
+      margin: 0 auto;
+}
+.yardInfo {
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 5%;
+    float: left;
+}
+
+.yardInfo img{
+    width:100% ;
+}
+
