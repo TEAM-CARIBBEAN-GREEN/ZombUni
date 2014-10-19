@@ -1,0 +1,194 @@
+body {
+    background: url("../Images/backgroundSite.jpg") center fixed no-repeat;;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    font-family: 'Shadows Into Light';
+    font-size: 62.50%;
+
+}
+
+html {
+    cursor: url("../Images/cursor2.png"), auto;
+
+}
+
+#header {
+    background: gray;
+
+    border: 2px solid black;
+    border-radius: .7em;
+    background-image: url("../Images/manos.png");
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding: 0 1rem;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    margin-left: 4%;
+    font-family: 'Shadows Into Light';
+    font-size: 180%;
+    font-weight: bold;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+
+}
+
+li:hover {
+    border-radius: 16%;
+    opacity: 1;
+}
+
+nav {
+    border: 2px solid gray;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.7);
+}
+
+.buttonLink {
+    text-decoration: none;
+    color: #9d1b2b;
+}
+
+.buttonLink:hover {
+    background-color: #9d1b2b;
+    border-radius: 15%;
+    color: black;
+    border: 2px solid white;
+
+}
+
+
+
+.section {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1;
+}
+.col{
+    display: block;
+    float:left;
+    margin: 1% 0 1% 1.6%;
+}
+.col:first-child{
+    margin-left:0;
+}
+.span_2_of_3 {
+    width: 63.1%;
+    padding:1.5%;
+}
+.span_1_of_3 {
+    width: 29.2%;
+    padding:1.5%;
+}
+.span_2_of_3  h3,
+.span_1_of_3  h3 {
+
+    font-size: 1.5rem;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+    color: white;
+    text-transform: uppercase;
+    padding: 1em 0;
+}
+.contact-form{
+    position:relative;
+    padding-bottom:30px;
+}
+.contact-form div{
+    padding:5px 0;
+}
+.contact-form span{
+    display:block;
+    font-size: 1.6rem;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+    color: white;
+    padding-bottom:5px;
+
+}
+.contact-form input[type="text"],.contact-form textarea{
+    font-family: "shadows into light";
+
+    text-shadow: 7px 5px 3px rgba(255, 76, 122, 1);
+    padding:8px;
+    display:block;
+    width:98%;
+
+    outline:none;
+    color: #9d1b2b;
+
+    font-size:1.3em;
+
+    border: 1px solid rgba(192, 192, 192, 0.41);
+    -webkit-appearance:none;
+}
+.contact-form textarea{
+
+    resize:none;
+    height:120px;
+}
+.contact-form input[type="submit"]{
+    font-family: 'Shadows Into Light';
+    color: #FFF;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    padding: 0.8em 1em;
+    border: 1px solid #EEE;
+    display: inline-block;
+    background: gray;
+    border:none;
+    outline: none;
+    cursor:pointer;
+
+}
+.contact-form input[type="submit"]:hover{
+    background: #363638;
+    color: #FFF;
+}
+.contact-form input[type="submit"]:active{
+    background: #363638;
+    color: #FFF;
+}
+.company_address{
+}
+.company_address p{
+    font-size: 1.2rem;
+    text-shadow: 7px 5px 3px rgba(255, 76, 122, 1);
+    color: #ffffff;
+    line-height: 1.8em;
+
+}
+.company_address p span{
+    text-decoration:underline;
+    font-size: 1.2rem;
+    text-shadow: 7px 5px 3px rgba(255, 76, 122, 1);
+    color: #ffffff;
+    cursor:pointer;
+}
+.map{
+    margin-bottom:15px;
+}
+
+/***** Media Quries *****/
+@media only screen and (max-width: 1024px) {
+    .wrap{
+        width:95%;
+    }
+}

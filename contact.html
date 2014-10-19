@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="icon" href="Images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="CSS/contact.css">
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <audio src="sound/click.mp3" type="audio/ogg" id="clickSound"></audio>
+    <embed name="myMusic" loop="true" hidden="true" src="sound/sound.mp3"></embed>
+    <script src="JS/buttonClick.js"></script>
+
+</head>
+<body>
+<nav>
+    <ul id="mainMenu"></ul>
+    <li onclick="clickSound()"><a class="buttonLink" href="index.html">Home</a></li>
+    <li onclick="clickSound()"><a class="buttonLink" href="About.html">About</a></li>
+    <li onclick="clickSound()"><a class="buttonLink" href="index.html">Fast-Track</a></li>
+    <li onclick="clickSound()"><a class="buttonLink" href="index.html">Zombie-Teachers</a></li>
+    <li onclick="clickSound()"><a class="buttonLink" href="Yard.html">Yard</a></li>
+    <li onclick="clickSound()"><a class="buttonLink" href="contact.html">Contacts</a></li>
+</nav>
+
+<div class="content">
+<!---start-contact---->
+<div class="contact">
+    <div class="wrap">
+        <div class="section group">
+            <div class="col span_1_of_3">
+                <div class="contact_info">
+                    <h3>Find us here</h3>
+                    <div class="map">
+                        <iframe width="100%" height="175" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2931.728984177702!2d23.356257999999986!3d42.70945899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8f79013c39b5%3A0x330ef76f3cb0173c!2z0KHQvtGE0YLRg9C10YDQtdC9INGD0L3QuNCy0LXRgNGB0LjRgtC10YI!5e0!3m2!1sbg!2sbg!4v1413640232024" width="600" height="450" frameborder="0" style="border:0"></iframe>
+                    </div>
+                </div>
+                <div class="company_address">
+                    <h3>Contacts :</h3>
+                    <p>Vasil Kanchev str</p>
+                    <p>Sofia city</p>
+                    <p>Bulgaria</p>
+                    <p>Phone: 359 899 55 55 92 </p>
+                    <p>Email: <span>info@softuni.bg</span></p>
+
+                </div>
+            </div>
+            <div class="col span_2_of_3">
+                <div class="contact-form">
+                    <h3>Contact us:</h3>
+                    <form method="post" action="php/contact.php" onsubmit="MM_validateForm(&#39;name&#39;,&#39;&#39;,&#39;R&#39;,&#39;email&#39;,&#39;&#39;,&#39;R&#39;
+,&#39;phone&#39;,&#39;&#39;,&#39;R&#39;,&#39;msg&#39;,&#39;&#39;,&#39;R&#39;)return document.MM_returnValue" encytype="text/plain, charset=UTF-8">
+                        <div>
+                            <span><label>Name</label></span>
+                            <span><input name="name" type="text" class="textbox" placeholder="Type your name here"></span>
+                        </div>
+                        <div>
+                            <span><label>E-MAIL</label></span>
+                            <span><input name="email" type="text" class="textbox" placeholder="Type your e-mail here"></span>
+                        </div>
+                        <div>
+                            <span><label>Phone</label></span>
+                            <span><input name="phone" type="text" class="textbox" placeholder="Type your phone here"></span>
+                        </div>
+                        <div>
+                            <span><label>Message</label></span>
+                            <span><textarea placeholder="Type your message here.." name="msg"></textarea></span>
+                        </div>
+                        <div>
+                            <span><input type="submit" value="Send"></span>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
