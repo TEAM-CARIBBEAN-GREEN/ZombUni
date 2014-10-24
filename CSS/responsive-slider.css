@@ -117,7 +117,7 @@
     font-size: 20px;
     color: #000;
     top: 40%;
-    background-color: gray;
+
     padding: 10px;
 }
 
@@ -132,13 +132,19 @@
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
     color: #7b1b29;
     margin-left: -2%;
+    background-image: url(../slider/skull_closed.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 
 
 }
 
 .responsive-slider .slider-control.left:hover {
     text-decoration: none;
-    padding-left: 10px;
+
+    background-image: url(../slider/skull_open.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .responsive-slider .slider-control.right {
@@ -152,11 +158,17 @@
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
     color: #7b1b29;
     margin-right: -2%;
+    background-image: url(../slider/skull_closed.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .responsive-slider .slider-control.right:hover {
     text-decoration: none;
-    padding-right: 10px;
+    
+    background-image: url(../slider/skull_open.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 @media (max-width: 480px) {
