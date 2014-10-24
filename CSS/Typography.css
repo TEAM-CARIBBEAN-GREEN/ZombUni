@@ -1,0 +1,56 @@
+
+    @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+body {
+   font-size: 62.50%;
+    font-family: "Shadows Into Light",sans-serif;
+}
+    /*menu*/
+.menu{
+ font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+
+   }
+.menu a{
+    text-decoration: none;
+}
+    .buttonLink {
+        color: #9d1b2b;
+    }
+
+    .buttonLink:hover{
+        background-color: #9d1b2b;
+        color: black;
+    }
+
+/*end menu*/
+
+#info {
+    font-size: 2rem;
+    text-align: left;
+ }
+
+footer {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 1601px) {
+    footer {
+
+        font-size: 140%;
+
+    }
+
+    #info {
+
+        font-family: 'Shadows Into Light';
+        font-size: 196%;
+
+    }
+    body > div {
+        opacity: 0.8;
+        max-width: 100%;
+        padding-top: 90px;
+    }
+}
