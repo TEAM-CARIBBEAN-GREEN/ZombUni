@@ -67,7 +67,7 @@ nav {
 /*test*/
 p {
     font-size: 350%;
-    color: wheat;
+    color: white;
 }
 
 .container {
@@ -85,15 +85,21 @@ p {
     float: right;
     color: #ffffff;
     width: 38%;
-    height: 27rem;
+    height: 30rem;
     padding-bottom: 18px;
     padding-left: 1%;
     padding-right: 1%;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
-
     border-radius: 3px;
 
 }
-#yardHeader{
 
+footer {
+    font-family: 'Shadows Into Light';
+    font-size: 100%;
+    color: white;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+    margin-top: 4.5rem;
+    text-align: left;
+    width: 28%;
 }
