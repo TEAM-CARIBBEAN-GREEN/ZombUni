@@ -46,7 +46,6 @@
 .responsive-slider .slides ul li .slide-body .caption {
     position: absolute;
     color: #fff;
-
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
 }
 
@@ -129,6 +128,8 @@
     font-weight: bold;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
     color: #7b1b29;
+    margin-left: 5%;
+
 
 }
 
@@ -147,6 +148,7 @@
     font-weight: bold;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
     color: #7b1b29;
+    margin-right: 3%;
 }
 
 .responsive-slider .slider-control.right:hover {
