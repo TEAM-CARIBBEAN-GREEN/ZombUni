@@ -1,111 +1,106 @@
-﻿<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>
-        ZombUni
-    </title>
+﻿    <!DOCTYPE html>
+    <html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>
+            ZombUni
+        </title>
 
-    <link rel="icon" href="Images/icon.png" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="CSS/index.css">
-    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-    <audio src="sound/click.mp3" type="audio/ogg" id="clickSound"></audio>
-    <embed name="myMusic" loop="true" hidden="true" src="sound/sound.mp3"></embed>
-    <script src="JS/buttonClick.js"></script>
-    <link href="CSS/responsive-slider.css" rel="stylesheet">
+        <link rel="icon" href="Images/icon.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="CSS/index.css">
+        <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
+        <link href="CSS/responsive-slider.css" rel="stylesheet" type="text/css">
 
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-<nav>
-
-    <ul id="mainMenu"></ul>
-    <li onclick="clickSound()"><a class="buttonLink" href="index.html">Home</a></li>
-    <li onclick="clickSound()"><a class="buttonLink" href="About.html">About</a></li>
-    <li onclick="clickSound()"><a class="buttonLink" href="index.html">Zombie-Teachers</a></li>
-    <li onclick="clickSound()"><a class="buttonLink" href="Yard.html">Yard</a></li>
-    <li onclick="clickSound()"><a class="buttonLink" href="contact.html">Contacts</a></li>
+    <nav>
 
 
-</nav>
+        <ul id="mainMenu">
+        <li><a class="buttonLink" href="index.html" >Home</a></li>
+        <li><a class="buttonLink" href="About.html">About</a></li>
+        <li><a class="buttonLink" href="index.html">Zombie-Teachers</a></li>
+        <li><a class="buttonLink" href="Yard.html">Yard</a></li>
+        <li><a class="buttonLink" href="contact.html">Contacts</a></li>
+        </ul>
 
-<div class="container">
+    </nav>
 
-    <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
-        <div class="slides" data-group="slides">
-            <ul>
-                <li>
-                    <div class="slide-body" data-group="slide">
-                        <img src="slider/1.jpg">
+    <div class="container">
 
-                        <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500"
-                             data-length="300">
-                            <h2>ZOMBIES ARE COMMING!!!</h2>
+        <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+            <div class="slides" data-group="slides">
+                <ul>
+                    <li>
+                        <div class="slide-body" data-group="slide">
+                            <img src="slider/1.jpg" alt="img">
 
-                            <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800"
-                                 data-length="300">THEY WANT BRAINS!
+                            <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500"
+                                 data-length="300">
+                                <h2>ZOMBIES ARE COMMING!!!</h2>
+
+                                <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800"
+                                     data-length="300">THEY WANT BRAINS!
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="slide-body" data-group="slide">
-                        <img src="slider/2.jpg">
+                    </li>
+                    <li>
+                        <div class="slide-body" data-group="slide">
+                            <img src="slider/2.jpg" alt="img">
 
-                        <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500"
-                             data-length="300">
-                            <h2>YOU MUST FIGHT THEM!!!</h2>
+                            <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500"
+                                 data-length="300">
+                                <h2>YOU MUST FIGHT THEM!!!</h2>
 
-                            <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800"
-                                 data-length="300">OR MAYBE JOIN....!
+                                <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800"
+                                     data-length="300">OR MAYBE JOIN....!
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="slide-body" data-group="slide">
-                        <img src="slider/third.jpg">
+                    </li>
+                    <li>
+                        <div class="slide-body" data-group="slide">
+                            <img src="slider/third.jpg" alt="img">
 
-                        <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500"
-                             data-length="300">
-                            <h2>IT`S YOUR DESISION</h2>
+                            <div class="caption header" data-animate="slideAppearRightToLeft" data-delay="500"
+                                 data-length="300">
+                                <h2>IT`S YOUR DESISION</h2>
 
-                            <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800"
-                                 data-length="300">DIE OR BECAME UNDEAD!
+                                <div class="caption sub" data-animate="slideAppearLeftToRight" data-delay="800"
+                                     data-length="300">DIE OR BECAME UNDEAD!
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
+            <a class="slider-control left" href="#" data-jump="prev">Prev</a>
+            <a class="slider-control right" href="#" data-jump="next">Next</a>
+
+            <div class="pages">
+                <a class="page" href="#" data-jump-to="1">1</a>
+                <a class="page" href="#" data-jump-to="2">2</a>
+                <a class="page" href="#" data-jump-to="3">3</a>
+            </div>
         </div>
-        <a class="slider-control left" href="#" data-jump="prev">Prev</a>
-        <a class="slider-control right" href="#" data-jump="next">Next</a>
-
-        <div class="pages">
-            <a class="page" href="#" data-jump-to="1">1</a>
-            <a class="page" href="#" data-jump-to="2">2</a>
-            <a class="page" href="#" data-jump-to="3">3</a>
+        <div id="info">
+            <p>
+                The year is 3000AC. The war with Zombies has begun.
+                Everything has turned into ruins and ashes.
+                Zombies became more than humans.
+                Human society has only two options left - to become zombies or fight with them. The bad news are that humans have no chance.
+                The only hope for humans is to apply for zombie training in ZombiUni.
+            </p>
         </div>
     </div>
-    <div id="info">
-        <span>
-            The year is 3000AC. The war with Zombies has begun.
-            Everything has turned into ruins and ashes.
-            Zombies became more than humans.
-            Human society has only two options left - to become zombies or fight with them. The bad news are that humans have no chance.
-            The only hope for humans is to apply for zombie training in ZombiUni.
-        </span>
-    </div>
-</div>
-<script src="JS/jquery.js"></script>
-<script src="JS/jquery.event.move.js"></script>
-<script src="JS/responsive-slider.js"></script>
-<footer>
-    All rights reserved &copy;
-    <a href="#"><img src="Images/html-validator.png" alt=""></a>
-    <a href="#"><img src="Images/css-validator.png" alt=""></a>
-</footer>
-</body>
-</html>
+    <script src="JS/jquery.js"></script>
+    <script src="JS/jquery.event.move.js"></script>
+    <script src="JS/responsive-slider.js"></script>
+
+    </body>
+    </html>
