@@ -41,6 +41,9 @@
 
 .responsive-slider .slides ul li .slide-body img {
     max-width: 100%;
+    padding-left: 2%;
+    /*mai i oshte*/
+
 }
 
 .responsive-slider .slides ul li .slide-body .caption {
@@ -128,7 +131,7 @@
     font-weight: bold;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
     color: #7b1b29;
-    margin-left: 5%;
+    margin-left: -2%;
 
 
 }
@@ -148,7 +151,7 @@
     font-weight: bold;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
     color: #7b1b29;
-    margin-right: 3%;
+    margin-right: -2%;
 }
 
 .responsive-slider .slider-control.right:hover {

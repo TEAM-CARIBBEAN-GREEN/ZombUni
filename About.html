@@ -9,11 +9,6 @@
     <link rel="icon" href="Images/icon.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="CSS/about.css">
     <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-    <audio src="sound/click.mp3" type="audio/ogg" id="clickSound"></audio>
-    <embed name="myMusic" loop="true" hidden="true" src="sound/sound.mp3"></embed>
-    <script src="JS/buttonClick.js"></script>
-    <link href="CSS/responsive-slider.css" rel="stylesheet">
-
 
 
 </head>
@@ -21,30 +16,40 @@
 <body>
 <!--<div> konteiner za celq html-->
 <nav>
-    <ul id="mainMenu"></ul>
-    <li onclick="clickSound()"><a class="buttonLink" href="index.html">Home</a></li>
-    <li onclick="clickSound()"><a class="buttonLink" href="About.html">About</a></li>
-    <li onclick="clickSound()"><a class="buttonLink" href="index.html">Zombie-Teachers</a></li>
-    <li onclick="clickSound()"><a class="buttonLink" href="Yard.html">Yard</a></li>
-    <li onclick="clickSound()"><a class="buttonLink" href="contact.html">Contacts</a></li>
-</nav>
 
+
+    <ul id="mainMenu">
+        <li><a class="buttonLink" href="index.html">Home</a></li>
+        <li><a class="buttonLink" href="About.html">About</a></li>
+        <li><a class="buttonLink" href="index.html">Zombie-Teachers</a></li>
+        <li><a class="buttonLink" href="Yard.html">Yard</a></li>
+        <li><a class="buttonLink" href="contact.html">Contacts</a></li>
+    </ul>
+
+</nav>
 
 
 <div id="about_container">
 
-    <div id="info">
-        <h2> Accessible and quality zombie education</h2>
-        <div id="about"> For us and for the whole zombie industry the most important thing is the practical experience.
-            Our mission is to make the people in our university real professional zombies and to help them in
-            finding jobs in the new zombie industry.
-         </div>
-    </div>
-    <div>
-        <img src="Images/about.jpg" alt=""/>
+    <h2> Accessible and quality zombie education</h2>
+
+
+    <div id="about"> For us and for the whole zombie industry the most important thing is the practical experience.
+        Our mission is to make the people in our university real professional zombies and to help them in
+        finding jobs in the new zombie industry.
+
+
+        <div id="img">
+            <img src="Images/about.jpg" alt=""/>
+        </div>
     </div>
 </div>
 
+<!--<footer>-->
+<!--All rights reserved &copy;-->
+<!--<img src="Images/html-validator.png" alt="">-->
+<!--<img src="Images/css-validator.png" alt="">-->
+<!--</footer>-->
 
 
 </body>
