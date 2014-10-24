@@ -36,6 +36,7 @@
     max-width: 100%;
     font-size: 14px;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+    margin-right: 1.85rem;
 }
 
 .responsive-slider .slides ul li .slide-body img {
