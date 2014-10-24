@@ -1,0 +1,90 @@
+﻿body {
+    background: url("../Images/backgroundSite.jpg") center fixed no-repeat;;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+
+html {
+    cursor: url("../Images/cursor2.png"), auto;
+}
+
+#header {
+    background: gray;
+
+    border: 2px solid black;
+    border-radius: .7em;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding: 0 1rem;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    margin-left: 4%;
+    font-family: 'Shadows Into Light';
+    font-size: 180%;
+    font-weight: bold;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+
+}
+
+li:hover {
+    border-radius: 16%;
+    opacity: 1;
+}
+
+nav {
+    border: 2px solid gray;
+    padding-bottom: 1%;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.7);
+}
+
+.buttonLink {
+    text-decoration: none;
+    color: #9d1b2b;
+}
+
+.buttonLink:hover {
+    background-color: #9d1b2b;
+    border-radius: 15px;
+    color: black;
+    border: 2px solid white;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.filler {
+    margin-top: 7px;
+    border: 2px solid gray;
+    background-color: rgba(211, 211, 211, 0.7);
+    border-radius: 6px;
+    font-family: 'Shadows Into Light';
+    clear: both;
+    display: block-inline;
+    height: auto;
+}
+h1 {
+    color: #9d1b2b;
+    text-align: center;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+}
+hr {
+    width: 95%;
+    height: 1px;
+    margin-bottom: 5px;
+}
+img {
+    width: auto;
+    height: 350px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 10px;
+    float: left;
+}
