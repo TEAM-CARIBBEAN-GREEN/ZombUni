@@ -108,7 +108,7 @@ footer {
 @media screen and (min-width: 1601px) {
     footer {
         position: absolute;
-        top: 845px;
+        top: 88%;
         font-family: 'Shadows Into Light';
         font-size: 140%;
         color: white;
