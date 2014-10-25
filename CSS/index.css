@@ -75,68 +75,6 @@ footer {
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
 }
 
-@media screen and (min-width: 1601px) {
-    footer {
-        position: absolute;
-        top: 88%;
-        color: white;
-        text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
-        margin-top: 4.5rem;
-        text-align: left;
-        width: 28%;
-    }
-    .responsive-slider .slides {
-        position: relative;
-        overflow: hidden;
-        margin-right: 10px;
-    }
-    .responsive-slider .slides ul li .slide-body img {
-        max-width: 100%;
-        padding-right: 20rem;
-    }
-    .sliderhd {
-        width: 1920px;
-        height: 29.7rem;
-    }
-    #slider1 {
-        margin-left: 3px;
-    }
-    #slider2 {
-        margin-left: 13px;
-    }
-    #slider3 {
-        margin-left: 23px;
-    }
-    body > div > div.responsive-slider > a.slider-control.right {
-        right: 16px;
-        padding-right: 2px;
-        -webkit-border-radius: 6px 6px 6px 6px;
-        border-radius: 6px 6px 6px 6px;
-        text-decoration: none;
-        font-weight: bold;
-        text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
-        color: #7b1b29;
-    }
-    #info {
-        background-repeat: no-repeat;
-        background-position: center;
-        margin-top: -480px;
-        float: right;
-        color: #ffffff;
-        width: 38%;
-        height: 28.5rem;
-        padding-bottom: 18px;
-        padding-left: 1%;
-        padding-right: 1%;
-        text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
-        border-radius: 3px
-    }
-    body > div {
-        opacity: 0.8;
-        max-width: 100%;
-        padding-top: 90px;
-    }
-}
 
 @media screen and (min-width: 0px) and (max-width: 320px) {
     * {
