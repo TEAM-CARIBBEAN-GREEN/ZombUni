@@ -42,7 +42,8 @@
 
 .responsive-slider .slides ul li .slide-body img {
     max-width: 100%;
-    padding-left: 2%;
+    padding-left: 1%;
+
     /*mai i oshte*/
 
 }
@@ -146,6 +147,7 @@
     background-image: url(../slider/skull_open.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    cursor: url(../Images/cursor2.png), auto;
 }
 
 .responsive-slider .slider-control.right {
@@ -158,7 +160,7 @@
     font-weight: bold;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
     color: #7b1b29;
-    margin-right: -2%;
+    margin-right: 0%;
     background-image: url(../slider/skull_closed.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -166,7 +168,7 @@
 
 .responsive-slider .slider-control.right:hover {
     text-decoration: none;
-    
+    cursor: url(../Images/cursor2.png), auto;
     background-image: url(../slider/skull_open.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -185,6 +187,7 @@
     left: 0;
     width: 100%;
     text-align: center;
+
 }
 
 .responsive-slider .pages .page {
@@ -195,6 +198,7 @@
     border: 3px solid #7b1b29 ;
     border-radius: 50%;
     opacity: 0.5;
+
 
 }
 

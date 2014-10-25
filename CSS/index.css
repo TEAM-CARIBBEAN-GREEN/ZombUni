@@ -51,6 +51,7 @@ nav li > a {
 
 .buttonLink:hover {
     border-radius: 8px;
+    cursor: url("../Images/cursor2.png"), auto;
    }
 
 #info {

@@ -137,6 +137,7 @@ nav li > a {
 .contact-form input[type="submit"]:hover{
     background: #363638;
     color: #FFF;
+    cursor: url("../Images/cursor2.png"), auto;
 }
 .contact-form input[type="submit"]:active{
     background: #363638;
