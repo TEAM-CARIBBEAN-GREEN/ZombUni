@@ -1,7 +1,8 @@
 .responsive-slider {
     width: 60%;
     position: relative;
-    margin-top: 5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
     }
 
 .responsive-slider .touch-surface {
@@ -20,7 +21,7 @@
 .responsive-slider .slides ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+
     white-space: nowrap;
     font-size: 0;
 }
