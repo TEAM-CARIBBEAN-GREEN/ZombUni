@@ -63,6 +63,7 @@ nav li > a {
     font-size: 1.9rem;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
     color: white;
+
     text-align: center;
 }
 
@@ -70,20 +71,26 @@ nav li > a {
     margin-left: 3%;
 }
 
-.info_container{
-      margin: 0 auto;
-}
+
 .yardInfo {
     width: 25%;
     text-align: center;
     margin: 0 auto;
     margin-left: 5%;
-    float: left;
+    display: inline-block;
+
+
+    /*float: left;*/
 }
 
 .yardInfo img{
     width:100% ;
 }
+footer {
+    color: white;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+}
+
 @media screen and (min-width: 0px) and (max-width: 320px) {
     * {
         margin: 0;
