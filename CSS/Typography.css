@@ -29,12 +29,24 @@ body {
     font-size: 2rem;
     text-align: left;
  }
-
+    #info-teachers{
+        font-size: 3em;
+    }
 footer {
     font-size: 1.2rem;
     text-align: center;
 }
-
+.filler h2{
+    font-size: 2rem;
+    color: #9d1b2b;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+}
+.filler p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #000000;
+    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+}
 @media screen and (min-width: 1601px) {
     footer {
 
