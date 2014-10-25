@@ -24,6 +24,9 @@ body {
     background: gray;
     border: 2px solid black;
 }
+label{
+    font-size: 1.3rem;
+}
 nav {
     border: 2px solid gray;
     margin-top: 1%;
@@ -56,72 +59,61 @@ nav li > a {
 
 .section {
     clear: both;
-    padding: 0px;
-    margin: 0px;
+
 }
-.group:before,
-.group:after {
-    content:"";
-    display:table;
+.contact_info{
+    margin-left: 8%;
 }
-.group:after {
-    clear:both;
-}
+
 .group {
     zoom:1;
 }
 .col{
-    display: block;
-    float:left;
+    display: inline-block;
     margin: 1% 0 1% 1.6%;
 }
 .col:first-child{
     margin-left:0;
 }
 .span_2_of_3 {
-    width: 63.1%;
-    padding:1.5%;
+    width: 55.1%;
+
 }
 .span_1_of_3 {
     width: 29.2%;
-    padding:1.5%;
+
 }
 .span_2_of_3  h3,
 .span_1_of_3  h3 {
 
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
     color: white;
     text-transform: uppercase;
-    padding: 1em 0;
+
 }
-.contact-form{
-    position:relative;
-    padding-bottom:30px;
-}
-.contact-form div{
-    padding:5px 0;
-}
+
+
 .contact-form span{
     display:block;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
     color: white;
-    padding-bottom:5px;
+
 
 }
 .contact-form input[type="text"],.contact-form textarea{
-    font-family: "shadows into light";
+
 
     text-shadow: 7px 5px 3px rgba(255, 76, 122, 1);
-    padding:8px;
+    padding:1%;
     display:block;
     width:98%;
 
     outline:none;
     color: #9d1b2b;
 
-    font-size:1.3em;
+    font-size:1.2em;
 
     border: 1px solid rgba(192, 192, 192, 0.41);
     -webkit-appearance:none;
@@ -129,11 +121,10 @@ nav li > a {
 .contact-form textarea{
 
     resize:none;
-    height:120px;
+
 }
 .contact-form input[type="submit"]{
-    font-family: 'Shadows Into Light';
-    color: #FFF;
+       color: #FFF;
     font-size: 0.875em;
     text-transform: uppercase;
     padding: 0.8em 1em;
@@ -154,14 +145,17 @@ nav li > a {
     color: #FFF;
 }
 .company_address{
+    margin-left: 8%;
 }
 .company_address p{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-shadow: 7px 5px 3px rgba(255, 76, 122, 1);
     color: #ffffff;
-    line-height: 1.8em;
+
+
 
 }
+
 .company_address p span{
     text-decoration:underline;
     font-size: 1.2rem;
@@ -169,9 +163,11 @@ nav li > a {
     color: #ffffff;
     cursor:pointer;
 }
-.map{
-    margin-bottom:15px;
+body > div > div > div > div > div.col.span_2_of_3{
+    margin-left: 5%;
 }
+
+
 footer {
     color: white;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
