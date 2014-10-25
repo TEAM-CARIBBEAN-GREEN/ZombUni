@@ -65,12 +65,14 @@ h1 {
     color: #9d1b2b;
     text-align: center;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
+
 }
 hr {
     width: 95%;
     height: 1px;
     margin-bottom: 5px;
 }
+
 .zombies {
     width: 15%;
     height: 30%;
@@ -79,6 +81,7 @@ hr {
     margin-top: 10px;
     float: left;
 }
+
 footer {
 
     color: white;

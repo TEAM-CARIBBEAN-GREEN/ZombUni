@@ -1,70 +1,57 @@
+html, body, title, nav, div, li, ul {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html {
+
+    cursor: url("../Images/cursor2.png"), auto;
+}
+
 body {
     background: url("../Images/backgroundSite.jpg") center fixed no-repeat;;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    font-family: 'Shadows Into Light';
-    font-size: 62.50%;
 
-}
-
-html {
-    cursor: url("../Images/cursor2.png"), auto;
-
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
 #header {
     background: gray;
-
     border: 2px solid black;
-    border-radius: .7em;
-    background-image: url("../Images/manos.png");
-    background-repeat: no-repeat;
-    background-size: 100% 90%;
 }
-
-li {
-    text-decoration: none;
-    list-style: none;
-    display: list-item;
-    text-align: -webkit-match-parent;
-    padding: 0 1rem;
-    list-style: none;
-    position: relative;
-    display: inline-table;
-    margin-left: 4%;
-    font-family: 'Shadows Into Light';
-    font-size: 180%;
-    font-weight: bold;
-    text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
-
-}
-
-li:hover {
-    border-radius: 16%;
-    opacity: 1;
-}
-
 nav {
     border: 2px solid gray;
-    padding-bottom: 1%;
+    margin-top: 1%;
+    padding: 1%;
     border-radius: 5px;
     background-color: rgba(211, 211, 211, 0.7);
 }
+.menu {
+    height: 2rem;
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+}
+nav li > a {
+    text-align: center;
+    float: left;
+    display: block;
+}
 
 .buttonLink {
-    text-decoration: none;
     color: #9d1b2b;
+    margin-left: 3%;
+    width: 10rem;
 }
 
 .buttonLink:hover {
-    background-color: #9d1b2b;
-    border-radius: 15%;
-    color: black;
-    border: 2px solid white;
-
+    border-radius: 8px;
 }
-
 #yardHeader {
     font-size: 2.5rem;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
