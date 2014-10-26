@@ -165,6 +165,10 @@ nav li > a {
 body > div > div > div > div > div.col.span_2_of_3{
     margin-left: 5%;
 }
+body > div > div > div > div > div.col.span_2_of_3 > div > form > div:nth-child(5){
+
+    margin-top: 1%;
+}
 
 
 footer {
@@ -199,6 +203,23 @@ footer {
     #info p {
         font-size: 1.5rem;
     }
+    .span_1_of_3 {
+        width: 93.2%;
+    }
+
+    .span_1_of_3 h3 {
+       text-align: center;
+    }
+    .span_2_of_3 {
+        width: 88%;
+    }
+    body > div > div > div > div > div.col.span_2_of_3 > div > form > div:nth-child(5){
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .company_address p{
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
@@ -227,6 +248,23 @@ footer {
     #info p {
         font-size: 1.7rem;
     }
+    .span_1_of_3 {
+        width: 93.2%;
+    }
+
+    .span_1_of_3 h3 {
+        text-align: center;
+    }
+    .span_2_of_3 {
+        width: 88%;
+    }
+    body > div > div > div > div > div.col.span_2_of_3 > div > form > div:nth-child(5){
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .company_address p{
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 640px) {
@@ -254,6 +292,23 @@ footer {
     }
     #info p {
         font-size: 1.8rem;
+    }
+    .span_1_of_3 {
+        width: 93.2%;
+    }
+
+    .span_1_of_3 h3 {
+        text-align: center;
+    }
+    .span_2_of_3 {
+        width: 88%;
+    }
+    body > div > div > div > div > div.col.span_2_of_3 > div > form > div:nth-child(5){
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .company_address p{
+        text-align: center;
     }
 }
 
@@ -288,6 +343,24 @@ footer {
     #info p {
         font-size: 1.8rem;
     }
+
+    .span_1_of_3 {
+        width: 93.2%;
+    }
+
+    .span_1_of_3 h3 {
+        text-align: center;
+    }
+    .span_2_of_3 {
+        width: 88%;
+    }
+    body > div > div > div > div > div.col.span_2_of_3 > div > form > div:nth-child(5){
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .company_address p{
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 960px) {
@@ -320,6 +393,24 @@ footer {
     }
     #info p {
         font-size: 2rem;
+    }
+
+    .span_1_of_3 {
+        width: 93.2%;
+    }
+
+    .span_1_of_3 h3 {
+        text-align: center;
+    }
+    .span_2_of_3 {
+        width: 88%;
+    }
+    body > div > div > div > div > div.col.span_2_of_3 > div > form > div:nth-child(5){
+        margin-left: 35%;
+        margin-top: 5%;
+    }
+    .company_address p{
+        text-align: center;
     }
 }
 
