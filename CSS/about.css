@@ -128,6 +128,16 @@ footer {
     #info p {
         font-size: 1.5rem;
     }
+    #img{
+        display: block;
+        width: 90%;
+    }
+    div>span{
+        display: block;
+        width: auto;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
@@ -162,6 +172,17 @@ footer {
     #info p {
         font-size: 1.7rem;
     }
+    #img{
+        display: block;
+        width: 90%;
+    }
+    div>span{
+        display: block;
+        width: auto;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 640px) {
@@ -195,6 +216,16 @@ footer {
 
     #info p {
         font-size: 1.8rem;
+    }
+    #img{
+        display: block;
+        width: 90%;
+    }
+    div>span{
+        display: block;
+        width: auto;
+        margin-left: 4%;
+        margin-right: 4%;
     }
 }
 
@@ -236,6 +267,16 @@ footer {
     #info p {
         font-size: 1.8rem;
     }
+    #img{
+        display: block;
+        width: 90%;
+    }
+    div>span{
+        display: block;
+        width: auto;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 960px) {
@@ -275,6 +316,16 @@ footer {
 
     #info p {
         font-size: 2rem;
+    }
+    #img{
+        display: block;
+        width: 90%;
+    }
+    div>span{
+        display: block;
+        width: auto;
+        margin-left: 4%;
+        margin-right: 4%;
     }
 }
 
