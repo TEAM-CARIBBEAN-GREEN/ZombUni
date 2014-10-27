@@ -172,6 +172,10 @@ footer {
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
 }
 
+a {
+    cursor: url("../Images/cursor2.png"), auto;
+}
+
 /***** Media Quries *****/
 @media screen and (min-width: 0px) and (max-width: 320px) {
     * {
