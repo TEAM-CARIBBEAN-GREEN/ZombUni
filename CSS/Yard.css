@@ -442,6 +442,9 @@ a {
         text-decoration: none;
         color: white;
     }
+    footer{
+        margin-top: 2%;
+    }
 }
 
 @media screen and (min-width: 1339px) and (max-width: 1600px) {
