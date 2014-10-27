@@ -154,8 +154,9 @@
 }
 
 .responsive-slider .slider-control.left:hover {
+    transition:transform 1.5s;
+    transform: rotate(90deg);
     text-decoration: none;
-
     background-image: url(../slider/skull_open.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -179,7 +180,10 @@
 }
 
 .responsive-slider .slider-control.right:hover {
+    transition:transform 1.5s;
+    transform: rotate(-90deg);
     text-decoration: none;
+
     cursor: url(../Images/cursor2.png), auto;
     background-image: url(../slider/skull_open.png);
     background-repeat: no-repeat;
