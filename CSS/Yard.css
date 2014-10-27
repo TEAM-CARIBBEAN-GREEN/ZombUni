@@ -59,7 +59,8 @@ nav li > a {
 .buttonLink:hover {
     border-radius: 8px;
     cursor: url("../Images/cursor2.png"), auto;
-    transition: 1s;
+    transition: 1.5s;
+    border-radius: 40px;
 }
 
 .info {

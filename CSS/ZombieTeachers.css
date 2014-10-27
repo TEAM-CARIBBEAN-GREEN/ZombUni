@@ -56,7 +56,8 @@ nav li > a {
     cursor: url("../Images/cursor2.png"), auto;
     -webkit-transition: 1s;
     -o-transition: 1s;
-    transition: 1s;
+    transition: 1.5s;
+    border-radius: 40px;
 }
 
 .filler {
