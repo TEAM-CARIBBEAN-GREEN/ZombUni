@@ -50,23 +50,32 @@ nav li > a {
 .buttonLink:hover {
     border-radius: 8px;
     cursor: url("../Images/cursor2.png"), auto;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
 }
-
 
 .section {
     clear: both;
-
 }
-.contact_info{
+
+.contact_info {
     margin-left: 8%;
 }
 
+.contact {
+    margin-top: 1%;
+    border: 2px solid gray;
+    background-color: rgba(211, 211, 211, 1);
+    border-radius: 5px;
+    height: auto;
+}
 
-.col{
+.col {
     display: inline-block;
     margin: 1% 0 1% 1.6%;
 }
-.col:first-child{
+.col:first-child {
     margin-left:0;
 }
 .span_2_of_3 {
@@ -79,12 +88,11 @@ nav li > a {
 }
 .span_2_of_3  h3,
 .span_1_of_3  h3 {
-
     font-size: 2rem;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
-    color: white;
+    color: black;
+    font-weight: bold;
     text-transform: uppercase;
-
 }
 
 
@@ -92,33 +100,41 @@ nav li > a {
     display:block;
     font-size: 1.2rem;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
-    color: white;
-
-
+    color: black;
+    font-weight: bold;
 }
 .contact-form input[type="text"],.contact-form textarea{
-
-
-    text-shadow: 7px 5px 3px rgba(255, 76, 122, 1);
     padding:1%;
     display:block;
     width:98%;
-
     outline:none;
     color: #9d1b2b;
-
     font-size:1.2em;
-
+    font-weight: bold;
     border: 1px solid rgba(192, 192, 192, 0.41);
     -webkit-appearance:none;
 }
+
+    ::-webkit-input-placeholder {
+        color: #9d1b2b;
+    }
+    :-moz-placeholder {
+       color: #9d1b2b;
+       opacity:  1;
+    }
+    ::-moz-placeholder {
+       color: #9d1b2b;
+       opacity:  1;
+    }
+    :-ms-input-placeholder {
+       color: #9d1b2b;
+    }
+
 .contact-form textarea{
-
-    resize:none;
-
+        resize:none;
 }
 .contact-form input[type="submit"]{
-       color: #FFF;
+    color: #FFF;
     font-size: 0.875em;
     text-transform: uppercase;
     padding: 0.8em 1em;
@@ -132,8 +148,9 @@ nav li > a {
 }
 .contact-form input[type="submit"]:hover{
     background: #363638;
-    color: #FFF;
+    color: red;
     cursor: url("../Images/cursor2.png"), auto;
+    font-weight: bold;
 }
 .contact-form input[type="submit"]:active{
     background: #363638;
@@ -145,17 +162,16 @@ nav li > a {
 .company_address p{
     font-size: 1.5rem;
     text-shadow: 7px 5px 3px rgba(255, 76, 122, 1);
-    color: #ffffff;
-
-
-
+    color: black;
+    font-weight: bold;
 }
 
 .company_address p span{
     text-decoration:underline;
     font-size: 1.2rem;
     text-shadow: 7px 5px 3px rgba(255, 76, 122, 1);
-    color: #ffffff;
+    color: black;
+    font-weight: bold;
     cursor:pointer, auto;
 }
 body > div > div > div > div > div.col.span_2_of_3{

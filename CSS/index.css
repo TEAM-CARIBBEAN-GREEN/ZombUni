@@ -52,7 +52,10 @@ nav li > a {
 .buttonLink:hover {
     border-radius: 8px;
     cursor: url("../Images/cursor2.png"), auto;
-   }
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
 
 #info {
     background-color: rgba(156, 27, 34, 0.26);
@@ -64,15 +67,11 @@ nav li > a {
     border: 2px solid white;
     margin-left: 2%;
     margin-right: 2%;
-
+}
+.container {
 
 }
-.container{
-
-}
-.responsive-slider{
-
-
+.responsive-slider {
     margin: 0 auto;
 }
 
@@ -410,5 +409,12 @@ a {
     }
     span.foot {
         font-size: 1.5rem;
+    }
+    body > div > div.responsive-slider > a.slider-control.right {
+        padding-right: 2%;
+    }
+    body > div > div.responsive-slider > a.slider-control.left {
+        padding-left: 2%;
+        left: 1.5%;
     }
 }
