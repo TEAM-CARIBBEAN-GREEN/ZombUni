@@ -142,6 +142,10 @@ a {
         color: #9d1b2b;
         font-weight: bold;
     }
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 
 }
 
@@ -186,7 +190,10 @@ a {
         color: #9d1b2b;
         font-weight: bold;
     }
-
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 640px) {
@@ -229,6 +236,10 @@ a {
     .info{
         color: #9d1b2b;
         font-weight: bold;
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
     }
 
 }
@@ -278,6 +289,10 @@ a {
     div.info_container {
         margin-left: 20%;
     }
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 
 }
 
@@ -318,6 +333,10 @@ a {
     p.infotext#third {
         font-size: 1.43rem;
     }
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 @media screen and (min-width: 800px) and (max-width: 960px) {
@@ -354,6 +373,10 @@ a {
     .yardInfo img{
         min-width: 70%;
     }
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 @media screen and (min-width: 961px) and (max-width: 1024px) {
@@ -383,7 +406,10 @@ a {
     #info p {
         font-size: 2rem;
     }
-
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
@@ -411,6 +437,10 @@ a {
     }
     #info p {
         font-size: 2rem;
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
     }
 }
 
@@ -442,6 +472,10 @@ a {
     }
     div.yardInfo {
         vertical-align: top
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
     }
 }
 
@@ -478,5 +512,9 @@ a {
     }
     div.yardInfo {
         vertical-align: top
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
     }
 }

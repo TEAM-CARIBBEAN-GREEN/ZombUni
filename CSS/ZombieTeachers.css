@@ -150,6 +150,10 @@ a {
 
         text-align: center;
     }
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
@@ -202,6 +206,10 @@ a {
 
         text-align: center;
     }
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 
 }
 
@@ -252,8 +260,11 @@ a {
     }
 
     body > div h2 {
-
         text-align: center;
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
     }
 
 }
@@ -301,7 +312,10 @@ a {
         min-width: 20%;
         max-width: 30%;
         float: left;
-
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
     }
 
 }
@@ -349,6 +363,10 @@ a {
         min-width: 20%;
         max-width: 20%;
     }
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 @media screen and (min-width: 961px) and (max-width: 1024px) {
@@ -384,6 +402,10 @@ a {
     #info p {
         font-size: 2rem;
     }
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
@@ -417,6 +439,10 @@ a {
     }
     .text{
         display: inline-block;
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
     }
 
 }
@@ -452,6 +478,10 @@ a {
 
     #info p {
         font-size: 2.3rem;
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
     }
 }
 
@@ -491,6 +521,9 @@ a {
 
     footer {
         font-size: 1.5rem;
-
+    }
+    footer a {
+        text-decoration: none;
+        color: white;
     }
 }
