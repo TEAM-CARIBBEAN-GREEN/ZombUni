@@ -49,6 +49,7 @@ nav li > a {
 
 .buttonLink:hover {
     border-radius: 8px;
+    cursor: url("../Images/cursor2.png"), auto;
 }
 
 
@@ -155,7 +156,7 @@ nav li > a {
     font-size: 1.2rem;
     text-shadow: 7px 5px 3px rgba(255, 76, 122, 1);
     color: #ffffff;
-    cursor:pointer;
+    cursor:pointer, auto;
 }
 body > div > div > div > div > div.col.span_2_of_3{
     margin-left: 5%;
