@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background: url("../Images/backgroundSite.jpg") center fixed no-repeat;;
+    background: url("../Images/backgroundSite.jpg") center fixed no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -91,7 +91,6 @@ span {
 }
 
 footer {
-
     color: white;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
 }
@@ -468,12 +467,7 @@ footer {
 
     footer {
         margin-left: 30%;
-    }
-
-    footer #foot {
         font-size: 1.5rem;
+        margin-top: 6.5%;
     }
 }
-
-
-
