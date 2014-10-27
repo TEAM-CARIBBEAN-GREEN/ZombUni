@@ -5,7 +5,6 @@
 }
 
 html {
-
     cursor: url("../Images/cursor2.png"), auto;
 }
 
@@ -71,7 +70,7 @@ h1 {
     color: #9d1b2b;
     text-align: center;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
-
+    border: 1px solid black;
 }
 
 hr {
@@ -88,8 +87,13 @@ hr {
     margin-top: 0%;
     margin-bottom: 1%;
     float: left;
-}
+    border: 1px solid black;
 
+
+}
+p{
+    border: 1px solid black;
+}
 footer {
 
     color: white;
@@ -409,6 +413,9 @@ footer {
     #info p {
         font-size: 2rem;
     }
+    .text{
+        display: inline-block;
+    }
 
 }
 
@@ -482,5 +489,6 @@ footer {
 
     footer {
         font-size: 1.5rem;
+
     }
 }
