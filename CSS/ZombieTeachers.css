@@ -91,9 +91,6 @@ hr {
     margin-top: 0%;
     margin-bottom: 1%;
     float: left;
-
-
-
 }
 
 footer {
@@ -531,7 +528,7 @@ a {
         text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
     }
     .filler p {
-        font-size: 2rem;
+        font-size: 1.9rem;
         font-weight: bold;
         color: #000000;
         text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
