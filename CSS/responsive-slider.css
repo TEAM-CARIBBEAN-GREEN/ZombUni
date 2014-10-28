@@ -43,7 +43,12 @@
 
 .responsive-slider .slides ul li .slide-body img {
     max-width: 100%;
-    padding-left: 1%;
+    padding-left: 1%;}
+@-moz-document url-prefix() {
+    .responsive-slider .slides ul li .slide-body img {
+
+    padding-left: 0%;
+}
 
     /*mai i oshte*/
 
@@ -65,8 +70,6 @@
     font-weight: bold;
 
 }
-
-
 
 .responsive-slider .slides ul li .slide-body .caption.header h2 i {
     font-size: 40px;
@@ -178,15 +181,15 @@
     margin-right: 0%;
     background-image: url(../slider/skull_closed.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;}
+    background-size: 100% 100%;
+}
+
 @-moz-document url-prefix() {
-.responsive-slider .slider-control.right {
-    right: -30px;
+    .responsive-slider .slider-control.right {
+        right: -30px;
 
+    }
 }
-}
-
-
 
 .responsive-slider .slider-control.right:hover {
     transition: transform 1.5s;
