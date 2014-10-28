@@ -234,3 +234,13 @@
 .responsive-slider .pages .page.active {
     opacity: 1;
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .responsive-slider .slides ul li .slide-body img {
+
+        padding-left: 0%;
+    }
+    .responsive-slider .right.slider-control{
+        right: -17px;
+
+    }
+}
