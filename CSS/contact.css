@@ -116,23 +116,23 @@ nav li > a {
     -webkit-appearance:none;
 }
 
-    ::-webkit-input-placeholder {
-        color: #9d1b2b;
-    }
-    :-moz-placeholder {
-       color: #9d1b2b;
-       opacity:  1;
-    }
-    ::-moz-placeholder {
-       color: #9d1b2b;
-       opacity:  1;
-    }
-    :-ms-input-placeholder {
-       color: #9d1b2b;
-    }
+::-webkit-input-placeholder {
+    color: #9d1b2b;
+}
+:-moz-placeholder {
+    color: #9d1b2b;
+    opacity:  1;
+}
+::-moz-placeholder {
+    color: #9d1b2b;
+    opacity:  1;
+}
+:-ms-input-placeholder {
+    color: #9d1b2b;
+}
 
 .contact-form textarea{
-        resize:none;
+    resize:none;
 }
 .contact-form input[type="submit"]{
     color: #FFF;
@@ -233,7 +233,7 @@ a {
     }
 
     .span_1_of_3 h3 {
-       text-align: center;
+        text-align: center;
     }
     .span_2_of_3 {
         width: 88%;
@@ -486,7 +486,7 @@ a {
     #info p {
         font-size: 2rem;
     }
-    
+
     footer {
         font-size: 1.5rem;
     }

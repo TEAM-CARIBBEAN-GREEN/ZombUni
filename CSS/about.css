@@ -91,10 +91,10 @@ footer {
     color: white;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
 }
+
 a {
     cursor: url("../Images/cursor2.png"), auto;
 }
-
 
 @media screen and (min-width: 0px) and (max-width: 320px) {
     * {
@@ -114,7 +114,7 @@ a {
     ul {
         width: 100%;
     }
-        
+
     h1 {
         text-align: center;
         color: #9d1b2b;
@@ -157,16 +157,19 @@ a {
     #info p {
         font-size: 1.5rem;
     }
-    #img{
+
+    #img {
         display: block;
         width: 90%;
     }
-    div>span{
+
+    div > span {
         display: block;
         width: auto;
         margin-left: 4%;
         margin-right: 4%;
     }
+
     footer a {
         text-decoration: none;
         color: white;
@@ -234,16 +237,19 @@ a {
     #info p {
         font-size: 1.7rem;
     }
-    #img{
+
+    #img {
         display: block;
         width: 90%;
     }
-    div>span{
+
+    div > span {
         display: block;
         width: auto;
         margin-left: 4%;
         margin-right: 4%;
     }
+
     footer a {
         text-decoration: none;
         color: white;
@@ -312,16 +318,19 @@ a {
     #info p {
         font-size: 1.8rem;
     }
-    #img{
+
+    #img {
         display: block;
         width: 90%;
     }
-    div>span{
+
+    div > span {
         display: block;
         width: auto;
         margin-left: 4%;
         margin-right: 4%;
     }
+
     footer a {
         text-decoration: none;
         color: white;
@@ -395,16 +404,19 @@ a {
     #info p {
         font-size: 1.8rem;
     }
-    #img{
+
+    #img {
         display: block;
         width: 90%;
     }
-    div>span{
+
+    div > span {
         display: block;
         width: auto;
         margin-left: 4%;
         margin-right: 4%;
     }
+
     footer a {
         text-decoration: none;
         color: white;
@@ -478,16 +490,19 @@ a {
     #info p {
         font-size: 2rem;
     }
-    #img{
+
+    #img {
         display: block;
         width: 90%;
     }
-    div>span{
+
+    div > span {
         display: block;
         width: auto;
         margin-left: 4%;
         margin-right: 4%;
     }
+
     footer a {
         text-decoration: none;
         color: white;
@@ -556,6 +571,7 @@ a {
     #info p {
         font-size: 2rem;
     }
+
     footer a {
         text-decoration: none;
         color: white;
@@ -623,9 +639,11 @@ a {
     #info p {
         font-size: 2rem;
     }
-    footer{
+
+    footer {
         margin-top: 3%;
     }
+
     footer a {
         text-decoration: none;
         color: white;
@@ -677,7 +695,6 @@ a {
         color: black;
         font-weight: bold;
         font-size: 2.6rem;
-
     }
 
     nav {
@@ -693,6 +710,7 @@ a {
     #info p {
         font-size: 2.3rem;
     }
+
     footer a {
         text-decoration: none;
         color: white;
@@ -766,6 +784,7 @@ a {
         font-size: 1.5rem;
         margin-top: 6.5%;
     }
+
     footer a {
         text-decoration: none;
         color: white;

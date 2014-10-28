@@ -1,34 +1,34 @@
 
-    @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 body {
-     font-size: 62.50%;
+    font-size: 62.50%;
     font-family: "Shadows Into Light",sans-serif;
 }
-    /*menu*/
+/*menu*/
 .menu{
- font-size: 1.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-shadow: 7px 5px 14px rgba(255, 76, 122, 1);
 
-   }
+}
 .menu a{
     text-decoration: none;
 }
-    .buttonLink {
-        color: #9d1b2b;
-    }
+.buttonLink {
+    color: #9d1b2b;
+}
 
-    .buttonLink:hover{
-        background-color: #9d1b2b;
-        color: black;
-    }
+.buttonLink:hover{
+    background-color: #9d1b2b;
+    color: black;
+}
 
 /*end menu*/
 
 #info {
     font-size: 2rem;
     text-align: left;
- }
+}
 #info-teachers{
     font-size: 6em;
 }
@@ -50,9 +50,9 @@ footer {
 .contact-form input[type="text"],.contact-form textarea{
     font-family: "Shadows Into Light", sans-serif;
 }
-    .contact-form input[type="submit"]{
-        font-family: "Shadows Into Light", sans-serif;
-    }
+.contact-form input[type="submit"]{
+    font-family: "Shadows Into Light", sans-serif;
+}
 @media screen and (min-width: 1601px) {
     footer {
 
