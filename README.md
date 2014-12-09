@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ZombUni
 =======
 
@@ -107,6 +106,3 @@ You will be invited to provide feedback about all your teammates, their attitude
 their team working skills, their contribution to the project, etc. The feedback is important part of the project evaluation 
 so take it seriously and be honest.
 
-
-HTML-Teamwork
->>>>>>> 308837b743348c209f7816ac3493be7d726edb30
